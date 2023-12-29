@@ -1,7 +1,10 @@
 [package]
 name = "x11_keypress_detect"
+description = "Tiny crate to provide access to X11 display and a function to return true if a key is pressed, or false if not"
+homepage = "https://github.com/muesli4brekkies/x11_keypress_detect"
 version = "0.1.0"
 edition = "2021"
+keywords = ["x11", "linux", "keypress", "detect"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
