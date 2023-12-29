@@ -10,11 +10,11 @@ This crate contains two public functions -
 
  ## Example
  ```rust
- use x11_keypress_detect::{get_display,key_pressed}
+ use x11_keypress_detect::KeypressDetect;
  fn main() {
-    get_display();
+    let display = KeypressDetect::get_display();
     loop {
-        println!("{}",key_pressed())
+        println!("{}",KeypressDetect::key_pressed(&display))
     }
  }
  ```
